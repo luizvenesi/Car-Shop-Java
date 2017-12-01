@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/car_shop01">
+ <Resource name="jdbc/car_shop01" type="javax.sql.DataSource" auth="Container" 
+            driverClassName="com.mysql.jdbc.Driver" 
+            url="jdbc:mysql://eu-cdbr-azure-north-e.cloudapp.net:3306/car_shop01" 
+            username="b6473f41ee8e71" password="357995ac" 
+            logAbandoned="true" 
+            removeAbandoned="true" removeAbandonedTimeout="60" 
+            maxActive="100" maxIdle="30" maxWait="10000"  />
+</Context>
